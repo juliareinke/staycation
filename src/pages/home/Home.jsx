@@ -4,14 +4,14 @@ import { useState, useEffect } from "react";
 
 import { nanoid } from "nanoid";
 
-import Header from "../../componentes/header/Header";
-import Produto from "../../componentes/produto/Produto";
+import Header from "../../components/header/Header";
+import Produto from "../../components/hotel-card/HotelCard";
 
 import styles from "./styles.module.css";
 import "./custom-styling.css";
 import "react-responsive-modal/styles.css";
 import classNames from "classnames";
-import Footer from "../../componentes/footer/footer";
+import Footer from "../../components/footer/Footer";
 
 export default function Home() {
   const [open, setOpen] = useState(false);

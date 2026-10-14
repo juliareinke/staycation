@@ -2,14 +2,14 @@ import { useLocation, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Header from "../../componentes/header/Header";
+import Header from "../../components/header/Header";
 import styles from "./styles.module.css";
 import "./custom-styling.css";
 
 import { Modal } from "react-responsive-modal";
 import { CiStar, CiEdit, CiTrash } from "react-icons/ci";
 import classNames from "classnames";
-import Footer from "../../componentes/footer/footer";
+import Footer from "../../components/footer/Footer";
 
 export default function Detalhes() {
   const [detalhes, setDetalhes] = useState({});

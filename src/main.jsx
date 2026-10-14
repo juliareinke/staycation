@@ -1,9 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./paginas/home/Home";
-import NotFound from "./paginas/not-found/NotFound";
-import Detalhes from "./paginas/detalhes/Detalhes";
+import Home from "./pages/home/Home";
+import NotFound from "./pages/not-found/NotFound";
+import Detalhes from "./pages/details/Details";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <HashRouter>
